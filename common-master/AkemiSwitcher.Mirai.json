@@ -1,0 +1,31 @@
+{
+   "target":"AkemiSwitcher",
+   "data":{
+      "versions":[
+         {
+            "versionCode":"1.3.7.6",
+            "hash":"DDEAC8F7A46A953A719A337EC183078A",
+            "versionData":"8CE75DA0C753FE83BC12C4C9BF1BB35A",
+            "downloadURL":"https:\/\/katakuna.cc\/static\/AkemiSwitcher\/1.3.7.6\/AkemiSwitcher.exe"
+         },
+         {
+            "versionCode":"1.3.9.7",
+            "hash":"C86468C0473BB6111A2949369BAF0E43",
+            "versionData":"7CD3FC85FC5C41DB6AD3BF5CCED492C1",
+            "downloadURL":"https:\/\/katakuna.cc\/static\/AkemiSwitcher\/1.3.9.7\/AkemiSwitcher.exe"
+         },
+         {
+            "versionCode":"1.3.9.8",
+            "hash":"5447D8DC782F2CF7807A144418FF4506",
+            "versionData":"D421EAAB6C3F1B599CE8B956FA5B8E8C",
+            "downloadURL":"https:\/\/katakuna.cc\/static\/AkemiSwitcher\/1.3.9.8\/AkemiSwitcher.exe"
+         },
+         {
+            "versionCode":"1.3.10.9",
+            "hash":"505F1536B9B4F4C01960C7F3800F20D1",
+            "versionData":"2805BFEAC2E64479D3BDB4C9871879C5",
+            "downloadURL":"https:\/\/katakuna.cc\/static\/AkemiSwitcher\/1.3.10.9\/AkemiSwitcher.exe"
+         }
+      ]
+   }
+}
