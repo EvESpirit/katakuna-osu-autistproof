@@ -1,0 +1,3 @@
+# AkemiSwitcher
+
+osu!katakuna Switcher.
