@@ -1,0 +1,24 @@
+{
+    "page_name": "osu!katakuna server status",
+    "services": [
+        {
+            "name": "hiroki",
+            "title": "Front-End",
+            "address": "http://localhost:9870",
+            "monitor_ping": true
+        },
+        {
+            "name": "shiori",
+            "title": "Bancho Emulator",
+            "address": "http://localhost:9377",
+            "monitor_ping": true
+        },
+        {
+            "name": "aoss",
+            "title": "Score Server",
+            "address": "http://localhost:9378",
+            "monitor_ping": true
+        }
+    ],
+    "poll_time": 60
+}

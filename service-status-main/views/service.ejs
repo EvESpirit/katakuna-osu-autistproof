@@ -1,0 +1,23 @@
+<div class="row">
+    <div class="col">
+        <%= service.title %><br>
+        <b><%= service.name %></b>
+    </div>
+    <div class="col">
+        Status<br>
+        <% if (service.up) { %>
+            <b class="color--green">Online</b>
+            <% if (service.ping_time) { %>
+                <% if(service.ping_time >= 500) { %>
+                    <span class="badge bg-warning"><%= service.ping_time %>ms</span>
+                <% } else if(service.ping_time >= 2000) { %>
+                    <span class="badge bg-danger"><%= service.ping_time %>ms</span>   
+                <% } else { %>    
+                    <span class="badge bg-success"><%= service.ping_time %>ms</span>
+                <% } %> 
+            <% } %>
+        <% } else { %>
+            <b class="color--red">Offline</b>
+        <% } %>
+    </div>
+</div>
